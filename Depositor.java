@@ -2,7 +2,7 @@ package thread_synchronization;
 
 public class Depositor extends Thread {
 	
-	BankAccount account;
+	private BankAccount account;
 	
 	public Depositor(BankAccount account) {
 		super();
