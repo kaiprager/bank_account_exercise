@@ -2,7 +2,7 @@ package thread_synchronization;
 
 public class Withdrawal extends Thread {
 	
-	BankAccount account;
+	private BankAccount account;
 	
 	public Withdrawal(BankAccount account) {
 		super();
